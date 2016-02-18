@@ -647,3 +647,22 @@ body{
         margin-top: 80px;
     }
 }
+/*个人站二维码*/
+.erweima{
+    width:100px;
+    height:100px;
+    position: fixed;
+    right: -95px;
+    bottom: 100px;
+    cursor: pointer;
+}
+.erweima img{
+    width:100%;
+}
+@media screen and (min-width: 700px) {
+    .erweima{
+        width:160px;
+        height:160px;
+        right:-155px;
+    }
+}
